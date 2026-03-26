@@ -12,7 +12,7 @@ int main()
         cin >> a[i];
     }
     bool b=false;
-    for(int i=0; i<elements ; i=i+1)
+    for(int i=0; i<elements ; i=i+2)
     {
         if(a[i]%2==0)
         {
