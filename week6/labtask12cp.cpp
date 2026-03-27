@@ -11,19 +11,14 @@ int main()
     {
         cin >> a[i];
     }
-    bool b=false;
+    bool b=true;
     for(int i=0; i<elements ; i=i+2)
     {
-        if(a[i]%2==0)
-        {
-        b=true;
-        }
-        else 
+        if(a[i]%2!=0)
         {
         b=false;
         }
-
-    }
+        }
     if(b)
     {
         cout<<"special array ";
